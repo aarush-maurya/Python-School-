@@ -1,0 +1,9 @@
+for i in range(1, 5):
+    for j in range(1, 2*i):
+        print(j, end="")
+    print()
+
+# 1
+# 123
+# 12345
+# 1234567
