@@ -1,0 +1,12 @@
+for i in range(1, 6):
+    for j in range(5-i):
+        print(1, end="")
+    for j in range(1, i+1):
+        print(j, end="")
+    print()
+
+# 11111
+# 11112
+# 11123
+# 11234
+# 12345
